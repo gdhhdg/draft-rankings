@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.table-dragable > tbody .grabable { cursor: grab; user-select: none }
+.table-dragable > tbody > tr.grabbed {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+.table-dragable > tbody > tr.grabbed:active {
+  user-input: none;
+}
+.table-dragable > tbody > tr.grabbed:active * {
+  user-input: none;
+  cursor: grabbing !important;
+}
+
+.centered {
+  text-align: center;
+}
+
+.tier1 {
+  background-color: green;
+}
+
+.tier2 {
+  background-color: lightgreen;
+}
+
+.tier3 {
+  background-color: cornflowerblue;
+}
+
+.tier4 {
+  background-color: yellow;
+}
+
+.tier5 {
+  background-color: indianred;
+}
+
+.position-header {
+  text-align: center;
+}
+
+.header-button{
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.print-container {
+text-align: center;
+
+}
+
+.nav-wrapper{
+  background-color: black!important;
+}
+
+.btn {
+  background-color: dodgerblue!important;
+}

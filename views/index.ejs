@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="/javascripts/jquery.js" ></script>
+    <script src="/javascripts/dragable.js"></script>
+    <script src="/javascripts/button-view.js"></script>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Non-Neutral Zone</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="https://nonneutralzone.com/">Home</a></li>
+        <li><a href="https://nonneutralzone.com/category/podcast/">Podcasts</a></li>
+        <li><a href="https://nonneutralzone.com/category/articles/">Articles</a></li>
+        <li><a href="https://nonneutralzone.com/2020/05/03/non-neutral-zone-2020-rookie-draft-ranking/">2020 Rookie Drafts</a></li>
+        <li><a href="https://nonneutralzone.com/contact-us/">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+    <h1 class="centered"><%= title %></h1>
+    <div class="container">
+      <row class="row">
+        <div class="col s4 header-button" id="show-all-button">
+          <a class="waves-effect waves-light btn">All</a>
+        </div>
+        <div class="col s4 header-button" id="show-te-button">
+          <a class="waves-effect waves-light btn">Tight Ends</a>
+        </div>
+        <div class="col s4 header-button" id="show-qb-button">
+          <a class="waves-effect waves-light btn">Quarterbacks</a>
+        </div>
+      </row>
+      <row class="row">
+        <div class="col s4 header-button" id="show-wr-button">
+          <a class="waves-effect waves-light btn">Wide Receivers</a>
+        </div>
+        <div class="col s4 header-button" id="show-rb-button">
+          <a class="waves-effect waves-light btn">Running Backs</a>
+        </div>
+        <div class="col s4 header-button" id="show-df-button">
+          <a class="waves-effect waves-light btn">Defence</a>
+        </div>
+      </row>
+      </div>
+
+    </div>
+    <row class="row print-container">
+      <div class="col s4"></div>
+      <div class="col s4">
+        <a class="waves-effect waves-light btn header-button" onclick="window.print()">Print this page</a>
+      </div>
+      <div class="col s4"></div>
+    </row>
+
+    <div class="row te-full">
+      <h2 class="position-header">Tigh Ends</h2>
+      <div class="col s6">
+        <h2 class="centered">Josh</h2>
+        <div class="table-wrap" id="tight-end-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < te.length; i++) { %>
+              <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
+              <td><%= te[i].Josh %></td>
+                <td><%= te[i].Team  %></td>
+                <td><%= te[i]["Tight Ends"] %></td>
+                <td><%= te[i]["Tier Josh"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="col s6">
+        <h2 class="centered">Brandon</h2>
+        <div class="table-wrap" id="tight-end-table">
+        <table class="table-dragable">
+          <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Tier</th>
+            <th>ADP</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% for(var i=0; i < te.length; i++) { %>
+            <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
+              <td><%= te[i].Brandon %></td>
+              <td><%= te[i].Team  %></td>
+              <td><%= te[i]["Tight Ends"] %></td>
+              <td><%= te[i]["Tier Brandon"] %> </td>
+              <td class="adp"></td>
+              <td class="grabable">&varr;</td>
+            </tr>
+
+          <%}%>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+
+<!--  Wide Receivers -->
+
+    <div class="row wr-full">
+      <h2 class="position-header">Wide Receivers</h2>
+      <div class="col s6">
+        <h2 class="centered">Josh</h2>
+        <div class="table-wrap" id="wr-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < wr.length; i++) { %>
+              <tr class="grabable tier<%= wr[i]["Tier Josh"] %> ">
+                <td><%= wr[i]["Rank Josh"] %></td>
+                <td><%= wr[i].Team  %></td>
+                <td><%= wr[i]["Wide Receivers"] %></td>
+                <td><%= wr[i]["Tier Josh"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="col s6">
+        <h2 class="centered">Brandon</h2>
+        <div class="table-wrap" id="wr-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < wr.length; i++) { %>
+              <tr class="grabable tier<%= wr[i]["Tier Brandon"]%> ">
+                <td><%= wr[i]["Rank Brandon"] %></td>
+                <td><%= wr[i].Team  %></td>
+                <td><%= wr[i]["Wide Receivers"] %></td>
+                <td><%= wr[i]["Tier Brandon"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+<!-- Running backs-->
+    <div class="row rb-full">
+      <h2 class="position-header">Running Backs</h2>
+      <div class="col s6">
+        <h2 class="centered">Josh</h2>
+        <div class="table-wrap" id="rb-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < rb.length; i++) { %>
+              <tr class="grabable tier<%= rb[i]["Tier Josh"].toString() %> ">
+                <td><%= rb[i].Josh %></td>
+                <td><%= rb[i].Team  %></td>
+                <td><%= rb[i]["Running Backs"] %></td>
+                <td><%= rb[i]["Tier Josh"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="col s6">
+        <h2 class="centered">Brandon</h2>
+        <div class="table-wrap" id="rb-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < rb.length; i++) { %>
+              <tr class="grabable tier<%= rb[i]["Tier Josh"].toString() %> ">
+                <td><%= rb[i].Brandon %></td>
+                <td><%= rb[i].Team  %></td>
+                <td><%= rb[i]["Running Backs"] %></td>
+                <td><%= rb[i]["Tier Brandon"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+<!--  Quarter Backs-->
+
+    <div class="row qb-full">
+      <h2 class="position-header">Quarter Backs</h2>
+      <div class="col s6">
+        <h2 class="centered">Josh</h2>
+        <div class="table-wrap" id="qb-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < qb.length; i++) { %>
+              <tr class="grabable tier<%= qb[i]["Tier Josh"].toString() %> ">
+                <td><%= qb[i].Josh %></td>
+                <td><%= qb[i].Team  %></td>
+                <td><%= qb[i]["Player"] %></td>
+                <td><%= qb[i]["Tier Josh"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="col s6">
+        <h2 class="centered">Brandon</h2>
+        <div class="table-wrap" id="qb-table">
+          <table class="table-dragable">
+            <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Tier</th>
+              <th>ADP</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% for(var i=0; i < qb.length; i++) { %>
+              <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
+                <td><%= qb[i].Brandon %></td>
+                <td><%= qb[i].Team  %></td>
+                <td><%= qb[i]["Player"] %></td>
+                <td><%= qb[i]["Tier Brandon"] %> </td>
+                <td class="adp"></td>
+                <td class="grabable">&varr;</td>
+              </tr>
+
+            <%}%>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
