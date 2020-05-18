@@ -87,7 +87,7 @@
             <% for(var i=0; i < teJosh.length; i++) { %>
               <%if (teJosh[i]["Tier Josh"] !== null && teJosh[i]["Tier Josh"] !== ''){%>
               <tr class="grabable tier<%= teJosh[i]["Tier Josh"].toString() %> ">
-              <td><%= parseInt(teJosh[i].Josh %></td>
+              <td><%= parseInt(teJosh[i].Josh )%></td>
                 <td><%= teJosh[i].Team  %></td>
                 <td><%= teJosh[i]["Tight Ends"] %></td>
                 <td><%= teJosh[i]["Tier Josh"] %> </td>
@@ -331,6 +331,72 @@
         </div>
       </div>
     </div>
+
+<!--  defense-->
+  <div class="row qb-full">
+    <h2 class="position-header">Defense</h2>
+    <div class="col s6">
+      <h2 class="centered">Josh</h2>
+      <div class="table-wrap" id="qb-table">
+        <table class="table-dragable">
+          <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Tier</th>
+            <th>ADP</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% for(var i=0; i < defenseJosh.length; i++) { %>
+          <%if (defenseJosh[i]["Tier Josh"] !== null && defenseJosh[i]["Tier Josh"] !== ''){%>
+            <tr class="grabable tier<%= defenseJosh[i]["Tier Josh"].toString() %> ">
+              <td><%= defenseJosh[i]['Rank Josh'] %></td>
+              <td><%= defenseJosh[i].Team  %></td>
+              <td><%= defenseJosh[i]["Player"] %></td>
+              <td><%= defenseJosh[i]["Tier Josh"] %> </td>
+              <td class="adp"></td>
+              <td class="grabable">&varr;</td>
+            </tr>
+          <%}%>
+          <%}%>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    <div class="col s6">
+      <h2 class="centered">Brandon</h2>
+      <div class="table-wrap" id="qb-table">
+        <table class="table-dragable">
+          <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Tier</th>
+            <th>ADP</th>
+          </tr>
+          </thead>
+          <tbody>
+          <% for(var i=0; i < defenseBrandon.length; i++) { %>
+          <%if (defenseBrandon[i]["Tier Brandon"] !== null && defenseBrandon[i]["Tier Brandon"] !== ''){%>
+            <tr class="grabable tier<%= defenseBrandon[i]["Tier Josh"].toString() %> ">
+              <td><%= defenseBrandon[i]['Rank Brandon'] %></td>
+              <td><%= defenseBrandon[i].Team  %></td>
+              <td><%= defenseBrandon[i]["Player"] %></td>
+              <td><%= defenseBrandon[i]["Tier Brandon"] %> </td>
+              <td class="adp"></td>
+              <td class="grabable">&varr;</td>
+            </tr>
+          <%}%>
+          <%}%>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 
   </body>
 </html>

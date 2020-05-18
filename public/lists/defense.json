@@ -1,0 +1,266 @@
+[
+  {
+    "Tier Josh": 1,
+    "Rank Josh": 1,
+    "Tier Brandon": 1,
+    "Rank Brandon": 2,
+    "Name": "San Francisco (SF)",
+    "": ""
+  },
+  {
+    "Tier Josh": 1,
+    "Rank Josh": 2,
+    "Tier Brandon": 1,
+    "Rank Brandon": 1,
+    "Name": "Baltimore (BAL)",
+    "": ""
+  },
+  {
+    "Tier Josh": 2,
+    "Rank Josh": 3,
+    "Tier Brandon": 2,
+    "Rank Brandon": 4,
+    "Name": "Buffalo (BUF)",
+    "": ""
+  },
+  {
+    "Tier Josh": 2,
+    "Rank Josh": 4,
+    "Tier Brandon": 2,
+    "Rank Brandon": 3,
+    "Name": "Pittsburgh (PIT)",
+    "": ""
+  },
+  {
+    "Tier Josh": 2,
+    "Rank Josh": 5,
+    "Tier Brandon": 2,
+    "Rank Brandon": 8,
+    "Name": "New England (NE)",
+    "": ""
+  },
+  {
+    "Tier Josh": 2,
+    "Rank Josh": 6,
+    "Tier Brandon": 2,
+    "Rank Brandon": 6,
+    "Name": "Chicago (CHI)",
+    "": ""
+  },
+  {
+    "Tier Josh": 2,
+    "Rank Josh": 7,
+    "Tier Brandon": 2,
+    "Rank Brandon": 5,
+    "Name": "Minnesota (MIN)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 8,
+    "Tier Brandon": 3,
+    "Rank Brandon": 9,
+    "Name": "New Orleans (NO)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 9,
+    "Tier Brandon": 3,
+    "Rank Brandon": 13,
+    "Name": "Indianapolis (IND)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 10,
+    "Tier Brandon": 3,
+    "Rank Brandon": 11,
+    "Name": "Los Angeles (LAC)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 11,
+    "Tier Brandon": 3,
+    "Rank Brandon": 10,
+    "Name": "Tennessee (TEN)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 12,
+    "Tier Brandon": 2,
+    "Rank Brandon": 7,
+    "Name": "Kansas City (KC)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 13,
+    "Tier Brandon": 3,
+    "Rank Brandon": 14,
+    "Name": "Denver (DEN)",
+    "": ""
+  },
+  {
+    "Tier Josh": 3,
+    "Rank Josh": 14,
+    "Tier Brandon": 3,
+    "Rank Brandon": 15,
+    "Name": "Los Angeles (LAR)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 15,
+    "Tier Brandon": 3,
+    "Rank Brandon": 16,
+    "Name": "Philadelphia (PHI)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 16,
+    "Tier Brandon": 4,
+    "Rank Brandon": 17,
+    "Name": "Seattle (SEA)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 17,
+    "Tier Brandon": 3,
+    "Rank Brandon": 12,
+    "Name": "New York (NYJ)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 18,
+    "Tier Brandon": 4,
+    "Rank Brandon": 21,
+    "Name": "Tampa Bay (TB)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 19,
+    "Tier Brandon": 4,
+    "Rank Brandon": 20,
+    "Name": "Dallas (DAL)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 20,
+    "Tier Brandon": 5,
+    "Rank Brandon": 27,
+    "Name": "Jacksonville (JAC)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 21,
+    "Tier Brandon": 5,
+    "Rank Brandon": 24,
+    "Name": "Washington (WAS)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 22,
+    "Tier Brandon": 4,
+    "Rank Brandon": 18,
+    "Name": "Green Bay (GB)",
+    "": ""
+  },
+  {
+    "Tier Josh": 4,
+    "Rank Josh": 23,
+    "Tier Brandon": 4,
+    "Rank Brandon": 19,
+    "Name": "Cleveland (CLE)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 24,
+    "Tier Brandon": 5,
+    "Rank Brandon": 25,
+    "Name": "Atlanta (ATL)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 25,
+    "Tier Brandon": 5,
+    "Rank Brandon": 26,
+    "Name": "Detroit (DET)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 26,
+    "Tier Brandon": 5,
+    "Rank Brandon": 22,
+    "Name": "Houston (HOU)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 27,
+    "Tier Brandon": 5,
+    "Rank Brandon": 28,
+    "Name": "Carolina (CAR)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 28,
+    "Tier Brandon": 5,
+    "Rank Brandon": 30,
+    "Name": "Las Vegas (LV)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 29,
+    "Tier Brandon": 5,
+    "Rank Brandon": 23,
+    "Name": "Miami (MIA)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 30,
+    "Tier Brandon": 5,
+    "Rank Brandon": 31,
+    "Name": "New York (NYG)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 31,
+    "Tier Brandon": 5,
+    "Rank Brandon": 29,
+    "Name": "Arizona (ARI)",
+    "": ""
+  },
+  {
+    "Tier Josh": 5,
+    "Rank Josh": 32,
+    "Tier Brandon": 5,
+    "Rank Brandon": 32,
+    "Name": "Cincinnati (CIN)",
+    "": ""
+  },
+  {
+    "Tier Josh": "Tier Josh",
+    "Rank Josh": "Rank Josh",
+    "Tier Brandon": "Tier Brandon",
+    "Rank Brandon": "Rank Brandon",
+    "Name": "Team DST",
+    "": "Bye"
+  }
+]

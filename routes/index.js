@@ -52,19 +52,21 @@ var te = require('../public/lists/te.json');
 var wr = require('../public/lists/wr.json');
 var rb = require('../public/lists/rb.json');
 var qb = require('../public/lists/qb.json');
-//var df = require('../public/lists/df.json');
+var df = require('../public/lists/defense.json');
 
 //Sort Josh Order
 var teJosh = te.sort((a, b) => parseInt(a['Josh']) - parseInt(b['Josh']));
 var wrJosh = wr.sort((a, b) => parseInt(a['Rank Josh']) - parseInt(b['Rank Josh']));
 var rbJosh = rb.sort((a, b) => parseInt(a.Josh) - parseInt(b.Josh));
 var qbJosh = qb.sort((a, b) => parseInt(a['Rank Josh']) - parseInt(b['Rank Josh']));
+var defenseJosh = df.sort((a, b) => parseInt(a['Rank Josh']) - parseInt(b['Rank Josh']));
 
 //Sort Brandon Order
 var teBrandon = te.sort((a, b) => parseInt(a.Brandon) - parseInt(b.Brandon));
 var wrBrandon = wr.sort((a, b) => parseInt(a['Rank Brandon']) - parseInt(b['Rank Brandon']));
 var rbBrandon = rb.sort((a, b) => parseInt(a.Brandon) - parseInt(b.Brandon));
 var qbBrandon = qb.sort((a, b) => parseInt(a['Rank Brandon']) - parseInt(b['Rank Brandon']));
+var defenseBrandon = df.sort((a, b) => parseInt(a['Rank Brandon']) - parseInt(b['Rank Brandon']));
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -84,7 +86,8 @@ router.get('/', function(req, res, next) {
             console.log(teJosh);
           res.render('index',{'te':te ,'wr':wr,'rb':rb,'qb':qb, 'adp':JSON.stringify(data),
             'jsonData': body,'title':'Draft Rank','teJosh': teJosh, 'wrJosh':wrJosh, 'rbJosh':rbJosh, 'qbJosh':qbJosh,
-              'teBrandon': teBrandon, 'wrBrandon':wrBrandon, 'rbBrandon':rbBrandon,'qbBrandon':qbBrandon})
+              'teBrandon': teBrandon, 'wrBrandon':wrBrandon,
+            'rbBrandon':rbBrandon,'qbBrandon':qbBrandon, 'defenseJosh':defenseJosh, 'defenseBrandon':defenseBrandon})
         }
       })    });
 
