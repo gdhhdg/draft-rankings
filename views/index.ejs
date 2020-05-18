@@ -5,7 +5,14 @@
     <script src="/javascripts/jquery.js" ></script>
     <script src="/javascripts/dragable.js"></script>
     <script src="/javascripts/button-view.js"></script>
-
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/javascripts/tablesort.js">
+    </script>
+    <script>
+      $(document).ready(function () {
+        $('table').tablesort();
+      });
+    </script>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -47,7 +54,7 @@
           <a class="waves-effect waves-light btn">Running Backs</a>
         </div>
         <div class="col s4 header-button" id="show-df-button">
-          <a class="waves-effect waves-light btn">Defence</a>
+          <a class="waves-effect waves-light btn">Defense</a>
         </div>
       </row>
       </div>
@@ -62,11 +69,11 @@
     </row>
 
     <div class="row te-full">
-      <h2 class="position-header">Tigh Ends</h2>
+      <h2 class="position-header">Tight Ends</h2>
       <div class="col s6">
         <h2 class="centered">Josh</h2>
         <div class="table-wrap" id="tight-end-table">
-          <table class="table-dragable">
+          <table id="josh-te-table" class="table-dragable">
             <thead>
             <tr>
               <th>Rank</th>
@@ -77,16 +84,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < te.length; i++) { %>
-              <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
-              <td><%= te[i].Josh %></td>
-                <td><%= te[i].Team  %></td>
-                <td><%= te[i]["Tight Ends"] %></td>
-                <td><%= te[i]["Tier Josh"] %> </td>
+            <% for(var i=0; i < teJosh.length; i++) { %>
+              <%if (teJosh[i]["Tier Josh"] !== null && teJosh[i]["Tier Josh"] !== ''){%>
+              <tr class="grabable tier<%= teJosh[i]["Tier Josh"].toString() %> ">
+              <td><%= parseInt(teJosh[i].Josh %></td>
+                <td><%= teJosh[i].Team  %></td>
+                <td><%= teJosh[i]["Tight Ends"] %></td>
+                <td><%= teJosh[i]["Tier Josh"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -107,16 +115,17 @@
           </tr>
           </thead>
           <tbody>
-          <% for(var i=0; i < te.length; i++) { %>
+          <% for(var i=0; i < teBrandon.length; i++) { %>
+          <%if (teBrandon[i]["Tier Brandon"] !== null && teBrandon[i]["Tier Brandon"] !== ''){%>
             <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
-              <td><%= te[i].Brandon %></td>
-              <td><%= te[i].Team  %></td>
-              <td><%= te[i]["Tight Ends"] %></td>
-              <td><%= te[i]["Tier Brandon"] %> </td>
+              <td><%= teBrandon[i].Brandon %></td>
+              <td><%= teBrandon[i].Team  %></td>
+              <td><%= teBrandon[i]["Tight Ends"] %></td>
+              <td><%= teBrandon[i]["Tier Brandon"] %> </td>
               <td class="adp"></td>
               <td class="grabable">&varr;</td>
             </tr>
-
+          <%}%>
           <%}%>
           </tbody>
         </table>
@@ -142,16 +151,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < wr.length; i++) { %>
-              <tr class="grabable tier<%= wr[i]["Tier Josh"] %> ">
-                <td><%= wr[i]["Rank Josh"] %></td>
-                <td><%= wr[i].Team  %></td>
-                <td><%= wr[i]["Wide Receivers"] %></td>
-                <td><%= wr[i]["Tier Josh"] %> </td>
+            <% for(var i=0; i < wrJosh.length; i++) { %>
+            <%if (wrJosh[i]["Tier Josh"] !== null && wrJosh[i]["Tier Josh"] !== ''){%>
+              <tr class="grabable tier<%= wrJosh[i]["Tier Josh"] %> ">
+                <td><%= wrJosh[i]["Rank Josh"] %></td>
+                <td><%= wrJosh[i].Team  %></td>
+                <td><%= wrJosh[i]["Wide Receivers"] %></td>
+                <td><%= wrJosh[i]["Tier Josh"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -172,16 +182,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < wr.length; i++) { %>
-              <tr class="grabable tier<%= wr[i]["Tier Brandon"]%> ">
-                <td><%= wr[i]["Rank Brandon"] %></td>
-                <td><%= wr[i].Team  %></td>
-                <td><%= wr[i]["Wide Receivers"] %></td>
-                <td><%= wr[i]["Tier Brandon"] %> </td>
+            <% for(var i=0; i < wrBrandon.length; i++) { %>
+            <%if (wrBrandon[i]["Tier Brandon"] !== null && wrBrandon[i]["Tier Brandon"] !== ''){%>
+              <tr class="grabable tier<%= wrBrandon[i]["Tier Brandon"]%> ">
+                <td><%= wrBrandon[i]["Rank Brandon"] %></td>
+                <td><%= wrBrandon[i].Team  %></td>
+                <td><%= wrBrandon[i]["Wide Receivers"] %></td>
+                <td><%= wrBrandon[i]["Tier Brandon"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -205,16 +216,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < rb.length; i++) { %>
-              <tr class="grabable tier<%= rb[i]["Tier Josh"].toString() %> ">
-                <td><%= rb[i].Josh %></td>
-                <td><%= rb[i].Team  %></td>
-                <td><%= rb[i]["Running Backs"] %></td>
-                <td><%= rb[i]["Tier Josh"] %> </td>
+            <% for(var i=0; i < rbJosh.length; i++) { %>
+            <%if (rbJosh[i]["Tier Josh"]  !== null && rbJosh[i]["Tier Josh"]  !== ''){%>
+              <tr class="grabable tier<%= rbJosh[i]["Tier Josh"] %> ">
+                <td><%= rbJosh[i]["Rank Josh"] %></td>
+                <td><%= rbJosh[i].Team  %></td>
+                <td><%= rbJosh[i]["Running Backs"] %></td>
+                <td><%= rbJosh[i]["Tier Josh"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -235,16 +247,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < rb.length; i++) { %>
-              <tr class="grabable tier<%= rb[i]["Tier Josh"].toString() %> ">
-                <td><%= rb[i].Brandon %></td>
-                <td><%= rb[i].Team  %></td>
-                <td><%= rb[i]["Running Backs"] %></td>
-                <td><%= rb[i]["Tier Brandon"] %> </td>
+            <% for(var i=0; i < rbBrandon.length; i++) { %>
+            <%if (rbBrandon[i]["Tier Brandon"] !== null && rbBrandon[i]["Tier Brandon"] !== ''){%>
+              <tr class="grabable tier<%= rb[i]["Tier Brandon"].toString() %> ">
+                <td><%= rbBrandon[i]["Rank Brandon"] %></td>
+                <td><%= rbBrandon[i].Team  %></td>
+                <td><%= rbBrandon[i]["Running Backs"] %></td>
+                <td><%= rbBrandon[i]["Tier Brandon"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -270,16 +283,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < qb.length; i++) { %>
-              <tr class="grabable tier<%= qb[i]["Tier Josh"].toString() %> ">
-                <td><%= qb[i].Josh %></td>
-                <td><%= qb[i].Team  %></td>
-                <td><%= qb[i]["Player"] %></td>
-                <td><%= qb[i]["Tier Josh"] %> </td>
+            <% for(var i=0; i < qbJosh.length; i++) { %>
+            <%if (qbJosh[i]["Tier Josh"] !== null && qbJosh[i]["Tier Josh"] !== ''){%>
+              <tr class="grabable tier<%= qbJosh[i]["Tier Josh"].toString() %> ">
+                <td><%= qbJosh[i]['Rank Josh'] %></td>
+                <td><%= qbJosh[i].Team  %></td>
+                <td><%= qbJosh[i]["Player"] %></td>
+                <td><%= qbJosh[i]["Tier Josh"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>
@@ -300,16 +314,17 @@
             </tr>
             </thead>
             <tbody>
-            <% for(var i=0; i < qb.length; i++) { %>
-              <tr class="grabable tier<%= te[i]["Tier Josh"].toString() %> ">
-                <td><%= qb[i].Brandon %></td>
-                <td><%= qb[i].Team  %></td>
-                <td><%= qb[i]["Player"] %></td>
-                <td><%= qb[i]["Tier Brandon"] %> </td>
+            <% for(var i=0; i < qbBrandon.length; i++) { %>
+            <%if (qbBrandon[i]["Tier Brandon"] !== null && qbBrandon[i]["Tier Brandon"] !== ''){%>
+              <tr class="grabable tier<%= qb[i]["Tier Josh"].toString() %> ">
+                <td><%= qbBrandon[i]['Rank Brandon'] %></td>
+                <td><%= qbBrandon[i].Team  %></td>
+                <td><%= qbBrandon[i]["Player"] %></td>
+                <td><%= qbBrandon[i]["Tier Brandon"] %> </td>
                 <td class="adp"></td>
                 <td class="grabable">&varr;</td>
               </tr>
-
+            <%}%>
             <%}%>
             </tbody>
           </table>

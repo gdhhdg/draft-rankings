@@ -23,25 +23,40 @@ a {
 }
 
 .tier1 {
-  background-color: green;
+  background-color: mediumseagreen;
 }
 
 .tier2 {
-  background-color: lightgreen;
-}
-
-.tier3 {
-  background-color: cornflowerblue;
-}
-
-.tier4 {
-  background-color: yellow;
-}
-
-.tier5 {
   background-color: indianred;
 }
 
+.tier3 {
+  background-color: mediumseagreen;
+}
+
+.tier4 {
+  background-color: indianred;
+}
+
+.tier5 {
+  background-color: mediumseagreen;
+}
+.tier6 {
+  background-color: indianred;
+}
+.tier7 {
+   background-color: mediumseagreen;
+ }
+.tier8 {
+    background-color: indianred;
+  }
+.tier9 {
+  background-color: mediumseagreen;
+}
+
+.tier10 {
+  background-color: indianred;
+}
 .position-header {
   text-align: center;
 }

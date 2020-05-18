@@ -8,8 +8,6 @@
     "Team": "KC",
     "Bye": "",
     "Computer": 1,
-    "Tight Ends": "Travis Kelce",
-    "Team": "KC",
     "id": 1989
   },
   {
@@ -21,8 +19,6 @@
     "Team": "SF",
     "Bye": "",
     "Computer": 2,
-    "Tight Ends": "George Kittle",
-    "Team": "SF",
     "id": 2499
   },
   {
@@ -34,8 +30,6 @@
     "Team": "BAL",
     "Bye": "",
     "Computer": 3,
-    "Tight Ends": "Mark Andrews",
-    "Team": "BAL",
     "id": 2872
   },
   {
@@ -47,8 +41,6 @@
     "Team": "PHI",
     "Bye": "",
     "Computer": 4,
-    "Tight Ends": "Zach Ertz",
-    "Team": "PHI",
     "id": 1978
   },
   {
@@ -60,8 +52,6 @@
     "Team": "NYG",
     "Bye": "",
     "Computer": 7,
-    "Tight Ends": "Evan Engram",
-    "Team": "NYG",
     "id": 2451
   },
   {
@@ -73,8 +63,6 @@
     "Team": "LAC",
     "Bye": "",
     "Computer": 6,
-    "Tight Ends": "Hunter Henry",
-    "Team": "LAC",
     "id": 2354
   },
   {
@@ -86,8 +74,6 @@
     "Team": "NO",
     "Bye": "",
     "Computer": 9,
-    "Tight Ends": "Jared Cook",
-    "Team": "NO",
     "id": 1658
   },
   {
@@ -99,8 +85,6 @@
     "Team": "MIA",
     "Bye": "",
     "Computer": 14,
-    "Tight Ends": "Mike Gesicki",
-    "Team": "MIA",
     "id": 2906
   },
   {
@@ -112,8 +96,6 @@
     "Team": "CLE",
     "Bye": "",
     "Computer": 11,
-    "Tight Ends": "Austin Hooper",
-    "Team": "CLE",
     "id": 2361
   },
   {
@@ -125,8 +107,6 @@
     "Team": "LV",
     "Bye": "",
     "Computer": 5,
-    "Tight Ends": "Darren Waller",
-    "Team": "LV",
     "id": 2322
   },
   {
@@ -138,8 +118,6 @@
     "Team": "LAR",
     "Bye": "",
     "Computer": 8,
-    "Tight Ends": "Tyler Higbee",
-    "Team": "LAR",
     "id": 2370
   },
   {
@@ -151,8 +129,6 @@
     "Team": "DEN",
     "Bye": "",
     "Computer": 12,
-    "Tight Ends": "Noah Fant",
-    "Team": "DEN",
     "id": 3251
   },
   {
@@ -164,8 +140,6 @@
     "Team": "PHI",
     "Bye": "",
     "Computer": 13,
-    "Tight Ends": "Dallas Goedert",
-    "Team": "PHI",
     "id": 2896
   },
   {
@@ -177,8 +151,6 @@
     "Team": "TB",
     "Bye": "",
     "Computer": 10,
-    "Tight Ends": "Rob Gronkowski",
-    "Team": "TB",
     "id": 1740
   },
   {
@@ -190,8 +162,6 @@
     "Team": "ATL",
     "Bye": "",
     "Computer": 18,
-    "Tight Ends": "Hayden Hurst",
-    "Team": "ATL",
     "id": 2889
   },
   {
@@ -203,8 +173,6 @@
     "Team": "CAR",
     "Bye": "",
     "Computer": 21,
-    "Tight Ends": "Ian Thomas",
-    "Team": "CAR",
     "id": null
   },
   {
@@ -216,8 +184,6 @@
     "Team": "IND",
     "Bye": "",
     "Computer": 17,
-    "Tight Ends": "Jack Doyle",
-    "Team": "IND",
     "id": 2430
   },
   {
@@ -229,8 +195,6 @@
     "Team": "DET",
     "Bye": "",
     "Computer": 15,
-    "Tight Ends": "T.J. Hockenson",
-    "Team": "DET",
     "id": 3307
   },
   {
@@ -242,8 +206,6 @@
     "Team": "PIT",
     "Bye": "",
     "Computer": 19,
-    "Tight Ends": "Eric Ebron",
-    "Team": "PIT",
     "id": 2112
   },
   {
@@ -255,8 +217,6 @@
     "Team": "IND",
     "Bye": "",
     "Computer": 37,
-    "Tight Ends": "Trey Burton",
-    "Team": "IND",
     "id": 2197
   },
   {
@@ -268,8 +228,6 @@
     "Team": "DAL",
     "Bye": "",
     "Computer": 20,
-    "Tight Ends": "Blake Jarwin",
-    "Team": "DAL",
     "id": null
   },
   {
@@ -281,8 +239,6 @@
     "Team": "TEN",
     "Bye": "",
     "Computer": 16,
-    "Tight Ends": "Jonnu Smith",
-    "Team": "TEN",
     "id": 2490
   },
   {
@@ -294,8 +250,6 @@
     "Team": "NYJ",
     "Bye": "",
     "Computer": 22,
-    "Tight Ends": "Chris Herndon IV",
-    "Team": "NYJ",
     "id": null
   },
   {
@@ -307,8 +261,6 @@
     "Team": "GB",
     "Bye": "",
     "Computer": 30,
-    "Tight Ends": "Jace Sternberger",
-    "Team": "GB",
     "id": null
   },
   {
@@ -320,8 +272,6 @@
     "Team": "SEA",
     "Bye": "",
     "Computer": 24,
-    "Tight Ends": "Greg Olsen",
-    "Team": "SEA",
     "id": 890
   },
   {
@@ -333,8 +283,6 @@
     "Team": "MIN",
     "Bye": "",
     "Computer": 25,
-    "Tight Ends": "Irv Smith Jr.",
-    "Team": "MIN",
     "id": null
   },
   {
@@ -346,8 +294,6 @@
     "Team": "MIN",
     "Bye": "",
     "Computer": 26,
-    "Tight Ends": "Kyle Rudolph",
-    "Team": "MIN",
     "id": 1799
   },
   {
@@ -359,8 +305,6 @@
     "Team": "BUF",
     "Bye": "",
     "Computer": 27,
-    "Tight Ends": "Dawson Knox",
-    "Team": "BUF",
     "id": null
   },
   {
@@ -372,8 +316,6 @@
     "Team": "CLE",
     "Bye": "",
     "Computer": 28,
-    "Tight Ends": "David Njoku",
-    "Team": "CLE",
     "id": 2448
   },
   {
@@ -385,8 +327,6 @@
     "Team": "CHI",
     "Bye": "",
     "Computer": 29,
-    "Tight Ends": "Jimmy Graham",
-    "Team": "CHI",
     "id": 1747
   },
   {
@@ -398,8 +338,6 @@
     "Team": "TB",
     "Bye": "",
     "Computer": 23,
-    "Tight Ends": "O.J. Howard",
-    "Team": "TB",
     "id": 2446
   },
   {
@@ -411,8 +349,6 @@
     "Team": "SEA",
     "Bye": "",
     "Computer": 31,
-    "Tight Ends": "Will Dissly",
-    "Team": "SEA",
     "id": 2973
   },
   {
@@ -424,8 +360,6 @@
     "Team": "LAR",
     "Bye": "",
     "Computer": 32,
-    "Tight Ends": "Gerald Everett",
-    "Team": "LAR",
     "id": 2464
   },
   {
@@ -437,8 +371,6 @@
     "Team": "PIT",
     "Bye": "",
     "Computer": 33,
-    "Tight Ends": "Vance McDonald",
-    "Team": "PIT",
     "id": 1984
   },
   {
@@ -450,8 +382,6 @@
     "Team": "TB",
     "Bye": "",
     "Computer": 34,
-    "Tight Ends": "Cameron Brate",
-    "Team": "TB",
     "id": null
   },
   {
@@ -463,8 +393,6 @@
     "Team": "SEA",
     "Bye": "",
     "Computer": 35,
-    "Tight Ends": "Jacob Hollister",
-    "Team": "SEA",
     "id": null
   },
   {
@@ -476,8 +404,6 @@
     "Team": "JAC",
     "Bye": "",
     "Computer": 36,
-    "Tight Ends": "Tyler Eifert",
-    "Team": "JAC",
     "id": 1974
   },
   {
@@ -489,8 +415,6 @@
     "Team": "HOU",
     "Bye": "",
     "Computer": 38,
-    "Tight Ends": "Jordan Akins",
-    "Team": "HOU",
     "id": null
   },
   {
@@ -502,8 +426,6 @@
     "Team": "FA",
     "Bye": "",
     "Computer": 39,
-    "Tight Ends": "Delanie Walker",
-    "Team": "FA",
     "id": 1201
   },
   {
@@ -515,8 +437,6 @@
     "Team": "CHI",
     "Bye": "",
     "Computer": 40,
-    "Tight Ends": "Cole Kmet",
-    "Team": "CHI",
     "id": null
   },
   {
@@ -528,8 +448,6 @@
     "Team": "HOU",
     "Bye": "",
     "Computer": 41,
-    "Tight Ends": "Darren Fells",
-    "Team": "HOU",
     "id": null
   },
   {
@@ -541,8 +459,6 @@
     "Team": "JAC",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -554,8 +470,6 @@
     "Team": "CIN",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -567,8 +481,6 @@
     "Team": "NO",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -580,8 +492,6 @@
     "Team": "LV",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -593,8 +503,6 @@
     "Team": "NE",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -606,8 +514,6 @@
     "Team": "NYJ",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -619,8 +525,6 @@
     "Team": "BAL",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -632,8 +536,6 @@
     "Team": "DEN",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -645,8 +547,6 @@
     "Team": "WAS",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -658,8 +558,6 @@
     "Team": "LV",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -671,8 +569,6 @@
     "Team": "CIN",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -684,8 +580,6 @@
     "Team": "NE",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -697,8 +591,6 @@
     "Team": "NYG",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -710,8 +602,6 @@
     "Team": "LAR",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -723,8 +613,6 @@
     "Team": "ARI",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -736,8 +624,6 @@
     "Team": "DET",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -749,8 +635,6 @@
     "Team": "FA",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -762,8 +646,6 @@
     "Team": "NE",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -775,8 +657,6 @@
     "Team": "WAS",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -788,8 +668,6 @@
     "Team": "ATL",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -801,8 +679,6 @@
     "Team": "IND",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   },
   {
@@ -814,8 +690,6 @@
     "Team": "KC",
     "Bye": "",
     "Computer": null,
-    "Tight Ends": "",
-    "Team": "",
     "id": null
   }
 ]
