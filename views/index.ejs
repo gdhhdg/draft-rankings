@@ -333,7 +333,7 @@
     </div>
 
 <!--  defense-->
-  <div class="row qb-full">
+  <div class="row df-full">
     <h2 class="position-header">Defense</h2>
     <div class="col s6">
       <h2 class="centered">Josh</h2>
@@ -353,8 +353,7 @@
           <%if (defenseJosh[i]["Tier Josh"] !== null && defenseJosh[i]["Tier Josh"] !== ''){%>
             <tr class="grabable tier<%= defenseJosh[i]["Tier Josh"].toString() %> ">
               <td><%= defenseJosh[i]['Rank Josh'] %></td>
-              <td><%= defenseJosh[i].Team  %></td>
-              <td><%= defenseJosh[i]["Player"] %></td>
+              <td><%= defenseJosh[i].Name  %></td>
               <td><%= defenseJosh[i]["Tier Josh"] %> </td>
               <td class="adp"></td>
               <td class="grabable">&varr;</td>
@@ -384,8 +383,7 @@
           <%if (defenseBrandon[i]["Tier Brandon"] !== null && defenseBrandon[i]["Tier Brandon"] !== ''){%>
             <tr class="grabable tier<%= defenseBrandon[i]["Tier Josh"].toString() %> ">
               <td><%= defenseBrandon[i]['Rank Brandon'] %></td>
-              <td><%= defenseBrandon[i].Team  %></td>
-              <td><%= defenseBrandon[i]["Player"] %></td>
+              <td><%= defenseBrandon[i].Name  %></td>
               <td><%= defenseBrandon[i]["Tier Brandon"] %> </td>
               <td class="adp"></td>
               <td class="grabable">&varr;</td>
